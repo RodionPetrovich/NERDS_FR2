@@ -1,7 +1,7 @@
 {
-  "name": "cat-energy-22",
+  "name": "NERDS",
   "private": true,
-  "description": "Личный проект «Кэт энерджи» от HTML Academy",
+  "description": "Новый проект NERDS",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "autoprefixer": "10.2.5",
