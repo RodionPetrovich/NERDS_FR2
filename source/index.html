@@ -35,7 +35,20 @@
             приложения.</p>
           <a href="catalog.html" class="user-button">УЗНАТЬ БОЛЬШЕ</a>
         </div>
-        <div class="more-info__slider"></div>
+        <div class="image-slider slider">
+          <ul class="image-slider__list slider__list">
+            <li class="image-slider__item image-slider__item--android slider__item"></li>
+            <li class="image-slider__item image-slider__item--web slider__item"></li>
+            <li class="image-slider__item image-slider__item--present slider__item"></li>
+
+          </ul>
+          <p class="image-slider__toggles image-slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+
+          </p>
+        </div>
 
       </div>
 
@@ -126,7 +139,7 @@
     </section>
 
     <section class="contacts">
-
+      <h2 class="visually-hidden">Наши контакты</h2>
       <div class="contacts__wrapper contacts__map">
         <div class="contacts__writing-form">
           <p class="contacts__subtitle upper-text">NЁRDS DESIGN STUDIO</p>
@@ -157,6 +170,22 @@
     </div>
 
   </footer>
+
+
+  <div class="user-form">
+    <form action="#" method="post">
+      <label for="user-form_login">Ваше имя:</label>
+      <input type="text" name="login" id="user-form_login" placeholder="Имя Фамилия">
+      <label for="user-email">Ваш email:</label>
+      <input type="text" name="email" id="user-email" placeholder="email@example.com">
+      <label for="letter-field">Текст письма:</label>
+      <textarea name="letter" id="letter-field" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+    </form>
+
+
+
+
+  </div>
 </body>
 
 </html>
