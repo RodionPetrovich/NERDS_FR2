@@ -20,5 +20,88 @@ a {
   text-decoration: none;
   color: black;
 }
+/*COLOR*/
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/roboto.woff2") format("woff2"), url("../../fonts/roboto.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/robotomedium.woff2") format("woff2"), url("../../fonts/robotomedium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/robotobold.woff2") format("woff2"), url("../../fonts/robotobold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+.upper-text {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 30px;
+}
+.header-text {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+/*BLOCKS*/
+.page__body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: grid;
+  grid-template-rows: -webkit-min-content 1fr -webkit-min-content;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  min-height: 100%;
+  min-width: 1440px;
+  /*возможно стоит сделать резиновую*/
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.page-header {
+  outline: 2px dotted red;
+  outline-style: inset;
+  background-color: #eeeeee;
+}
+.page-header__wrapper {
+  margin: 0 140px;
+  margin-top: 75px;
+  display: flex;
+}
+.main-nav {
+  outline: 2px dotted yellow;
+  outline-style: inset;
+  display: flex;
+}
+.site-list {
+  outline: 2px dotted blue;
+  outline-style: inset;
+  display: flex;
+}
+.site-list__item {
+  list-style: none;
+}
+.user-button {
+  min-width: 160px;
+  min-height: 50px;
+  background-color: #FB565A;
+}
+.user-button a {
+  color: #ffffff;
+  line-height: 18px;
+}
+.more-info {
+  background-color: #eeeeee;
+}
+.more-info__wrapper {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
