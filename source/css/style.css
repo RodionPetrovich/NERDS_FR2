@@ -92,6 +92,8 @@ a {
   min-width: 160px;
   min-height: 50px;
   background-color: #FB565A;
+  text-align: center;
+  vertical-align: middle;
 }
 .user-button a {
   color: #ffffff;
@@ -101,6 +103,42 @@ a {
   background-color: #eeeeee;
 }
 .more-info__wrapper {
+  display: flex;
+  margin: 0 140px;
+}
+.slider__toggle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.image-slider {
+  position: relative;
+}
+.image-slider__list {
+  min-width: 760px;
+  min-height: 431px;
+  outline: 2px dotted black;
+  outline-style: inset;
+}
+.image-slider__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  list-style: none;
+}
+.image-slider__item--android {
+  background-image: url("/source/img/nerds-index-slide1.png");
+}
+.image-slider__toggles {
+  position: absolute;
+  top: 50%;
+}
+.work-order__wrapper {
+  outline: 2px dotted #924e7d;
+  outline-style: inset;
+  margin: 0 140px;
+}
+.work-order__list {
+  list-style: none;
   display: flex;
 }
 
